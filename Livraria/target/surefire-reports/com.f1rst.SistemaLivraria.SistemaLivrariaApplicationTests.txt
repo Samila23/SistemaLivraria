@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.f1rst.SistemaLivraria.SistemaLivrariaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.472 s <<< FAILURE! - in com.f1rst.SistemaLivraria.SistemaLivrariaApplicationTests
+contextLoads  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Unknown mappedBy in: com.f1rst.sistemaLivraria.entities.AlbunsMusicaEntity.produtos, referenced property unknown: com.f1rst.sistemaLivraria.entities.ProdutosEntity.ALBUNS_MUSICA
+Caused by: org.hibernate.AnnotationException: Unknown mappedBy in: com.f1rst.sistemaLivraria.entities.AlbunsMusicaEntity.produtos, referenced property unknown: com.f1rst.sistemaLivraria.entities.ProdutosEntity.ALBUNS_MUSICA
+
