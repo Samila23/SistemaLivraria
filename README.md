@@ -16,6 +16,7 @@
 <br>
 <h2>Para testar funcionalidades da API:</h2>
 <h4>2º No endpoint Produtos, POST /produtos, utilizar a massa abaixo (podendo alterar conforme a necessidade).</h4>
+<pre>
 <p>
 {
   "idVenda": 1,
@@ -37,6 +38,7 @@
   }
 }
 </p>
+</pre>
 <p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
 <h4>3º No endpoint Produtos, POST /vendas, utilizar a Massa abaixo para realizar uma venda.</h4>
 <p>
