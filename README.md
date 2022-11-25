@@ -8,7 +8,7 @@
 <div align="center">
 É uma aplicação web planejada por mim, realizei o CRUD.
 
-<p align="justify">O sistema de controle de vacinas é um sistema onde o usuário pode cadastrar, atualizar e excluir produtos, pode cadastrar clientes e vendas com movimentação de saíde do estoque.</p>
+<p align="justify">O sistema de controle de vacinas é um sistema onde pode cadastrar, atualizar e excluir produtos, cadastrar clientes e realizar vendas com movimentação do estoque.</p>
 </div>
 
 <h2>Como subir o ambiente:</h2>
