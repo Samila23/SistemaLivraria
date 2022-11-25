@@ -33,21 +33,19 @@
 <p>
 {
   "idVenda": 1,
-  "qtdProduto": 10,
-  "valorTotal": 0,
   "clientes": {
     "idCliente": 1,
-    "nome": "Sâmila",
-    "rg": "00000x",
-    "cpf": "000.000.000-99",
+    "nome": "Samila Milena",
+    "rg": "000xx",
+    "cpf": "000.000.000-00",
     "idade": 18
   },
   "produtos": {
     "idProduto": 1,
-    "nome": "Brinquedo",
-    "preco": 9.9,
-    "quantidadeProduto": 10
-    "descricaoProduto": "carrinho"
+    "nome": "Livro",
+    "preco": 9.90,
+    "quantidadeProduto": 10,
+    "descricaoProduto": "Codigo Limpo"
   }
 }
 </p>
