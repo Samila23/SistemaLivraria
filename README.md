@@ -41,6 +41,7 @@
 </pre>
 <p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
 <h4>3º No endpoint Produtos, POST /vendas, utilizar a Massa abaixo para realizar uma venda.</h4>
+<pre>
 <p>
 {
     "idProduto": 1,
@@ -50,6 +51,7 @@
     "descricaoProduto": "carrinho"
 }
 </p>
+</pre>
 <p>Caso utilize o mesmo idVenda de uma venda já existente no momento criação, vc irá atualizar os dados da venda</p>
 <h4>4º Após Criar a venda, você poderá consultar a venda realizada em GET /venda , poderá consultar o produto cadastrado em GET /produto , consultar o cliente em GET /cliente , além disso será possivel verificar a movimentação de saíde e entrada do estoque em GET /estoque.</h4>
 
