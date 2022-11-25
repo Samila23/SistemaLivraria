@@ -12,9 +12,9 @@
 </div>
 
 <h2>Como subir o ambiente:</h2>
+<h4>1º Após subir a aplicação, abrir no navegador o link: http://localhost:8080/swagger-ui/index.html.</h4>
 <br>
 <h2>Para testar funcionalidades da API:</h2>
-<h4>1º Após subir a aplicação, abrir no navegador o link: http://localhost:8080/swagger-ui/index.html.</h4>
 <h4>2º No endpoint Produtos, POST /produtos, utilizar a massa abaixo (podendo alterar conforme a necessidade).</h4>
 <p>
 {
