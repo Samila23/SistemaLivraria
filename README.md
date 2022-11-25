@@ -19,6 +19,19 @@
 <pre>
 <p>
 {
+    "idProduto": 1,
+    "nome": "Brinquedo",
+    "preco": 9.9,
+    "quantidadeProduto": 10
+    "descricaoProduto": "carrinho"
+}
+</p>
+</pre>
+<p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
+<h4>3º No endpoint Produtos, POST /vendas, utilizar a Massa abaixo para realizar uma venda.</h4>
+<pre>
+<p>
+{
   "idVenda": 1,
   "qtdProduto": 10,
   "valorTotal": 0,
@@ -36,19 +49,6 @@
     "quantidadeProduto": 10
     "descricaoProduto": "carrinho"
   }
-}
-</p>
-</pre>
-<p>Caso utilize o mesmo idProduto de um produto já existente no momento criação, vc irá alterar os dados do produto</p>
-<h4>3º No endpoint Produtos, POST /vendas, utilizar a Massa abaixo para realizar uma venda.</h4>
-<pre>
-<p>
-{
-    "idProduto": 1,
-    "nome": "Brinquedo",
-    "preco": 9.9,
-    "quantidadeProduto": 10
-    "descricaoProduto": "carrinho"
 }
 </p>
 </pre>
