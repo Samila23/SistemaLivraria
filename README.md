@@ -73,7 +73,7 @@
  
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Samila23"><br /><sub><b>Sâmila Milena</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Samila23"><br/><sub><b>Sâmila Milena</b></sub></a><br /></td>
   </tr>
 </table>
 
