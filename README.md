@@ -19,11 +19,11 @@
 <pre>
 <p>
 {
-    "idProduto": 1,
-    "nome": "Brinquedo",
-    "preco": 9.9,
-    "quantidadeProduto": 10
-    "descricaoProduto": "carrinho"
+  "idProduto": 1,
+  "nome": "Brinquedo",
+  "preco": 9.9,
+  "quantidadeProduto": 10,
+  "descricaoProduto": "carrinho"
 }
 </p>
 </pre>
