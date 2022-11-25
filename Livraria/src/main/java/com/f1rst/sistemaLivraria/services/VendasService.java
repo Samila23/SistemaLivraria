@@ -57,8 +57,6 @@ public class VendasService {
 		if (optional.isPresent()) {
 			VendasEntity vendasBD = optional.get();
 			vendasBD.setIdVenda(novaVendas.getIdVenda());
-			vendasBD.setQtdProduto(novaVendas.getQtdProduto());
-			vendasBD.setValorTotal(novaVendas.getValorTotal());
 			return vendasRepository.save(vendasBD).toDto();
 
 		} else {

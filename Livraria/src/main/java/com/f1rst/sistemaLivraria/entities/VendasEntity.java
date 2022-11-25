@@ -24,8 +24,6 @@ import lombok.Setter;
 public class VendasEntity {
 	@Id
 	private int idVenda;
-	private int qtdProduto;
-	private float valorTotal;
 
 	//Cliente e vendas
 	@ManyToOne						 

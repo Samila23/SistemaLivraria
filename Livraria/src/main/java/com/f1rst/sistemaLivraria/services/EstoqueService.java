@@ -54,6 +54,8 @@ public class EstoqueService {
 		if(optional.isPresent()) {
 			if(tipoTransacao == 1) {
 				ProdutosEntity produtosBD = optional.get();
+				estoqueEntity.setIdProduto(produtosBD.getIdProduto());
+				estoqueEntity.setNomeProduto(produtosBD.getNome());
 				estoqueEntity.setQuantidade(estoqueEntity.getQuantidade() + produtosBD.getQuantidadeProduto());
 				estoqueEntity.setTipoMovientacao("1 - Entrada Estoque");
 				List<EstoqueEntity> lista = estoqueRepository.findAll();
@@ -65,6 +67,8 @@ public class EstoqueService {
 			else
 				if(tipoTransacao == 2) {
 					ProdutosEntity produtosBD = optional.get();
+					estoqueEntity.setIdProduto(produtosBD.getIdProduto());
+					estoqueEntity.setNomeProduto(produtosBD.getNome());
 					estoqueEntity.setQuantidade(estoqueEntity.getQuantidade() - produtosBD.getQuantidadeProduto());
 					estoqueEntity.setTipoMovientacao("2 - Saída Estoque");
 					estoqueEntity.contadorTotalProd(estoqueEntity.getQuantidade(), 2);

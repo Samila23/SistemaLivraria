@@ -17,8 +17,6 @@ import lombok.Setter;
 public class VendasDto {
 	
 	private int idVenda;
-	private int qtdProduto;
-	private float valorTotal;
 	
 	private ClientesEntity clientes;
 	private ProdutosEntity produtos;
